@@ -8,6 +8,7 @@ This is a Vagrant file and set of Chef recipes for building a basic node develop
 * redis
 * git
 * foreman (0.60.2)
+* node-inspector
 
 *Note:* The latest version of foreman had an issue properly killing off its child processes.
 
