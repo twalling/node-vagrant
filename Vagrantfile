@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
   # not work with Vagrant providers other than VirtualBox
 
   config.vm.provider :virtualbox do |vb|
-    vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/tesla", "1"]
+    vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/node", "1"]
   end
 
   config.vm.provision :chef_solo do |chef|

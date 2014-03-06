@@ -5,5 +5,5 @@ end
 
 execute "install_node_inspector" do
     user "root"
-    command "npm install -g node-inspector@0.1.10"
+    command "npm install -g node-inspector"
 end

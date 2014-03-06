@@ -3,14 +3,13 @@
 This is a Vagrant file and set of Chef recipes for building a basic node development environment which includes the following:
 
 * ubuntu (12.04)
-* node.js (0.10.5)
+* node.js (0.10.26)
 * mongodb
 * redis
 * git
 * foreman (0.60.2)
-* node-inspector (0.1.10)
 
-*Note:* The latest version of foreman had an issue properly killing off its child processes and the latest version of node-inspector has various issues.
+*Note:* The latest version of foreman had an issue properly killing off its child processes.
 
 ## Prerequisites
 
